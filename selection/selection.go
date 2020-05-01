@@ -20,7 +20,7 @@ func (s *Selection) SortTest() {
 	s.Sort()
 	end := time.Now()
 	timeStr := end.Sub(before).String()
-	s.String("bubble1 sort", timeStr)
+	s.String("selection sort", timeStr)
 }
 
 func (s *Selection) Sort() {

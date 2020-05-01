@@ -17,8 +17,4 @@ func TestHeap_SortTest(t *testing.T) {
 		t.Error("failed")
 	}
 	//fmt.Println(h.Array)
-	//实时加载文件
-	//实时加载文件
-	//实时加载文件
-	//实时加载文件
 }

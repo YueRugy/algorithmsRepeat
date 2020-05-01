@@ -19,7 +19,7 @@ func (b *Bubble2) SortTest() {
 	b.Sort()
 	end := time.Now()
 	timeStr := end.Sub(before).String()
-	b.String("bubble1 sort", timeStr)
+	b.String("bubble2 sort", timeStr)
 }
 func (b *Bubble2) Sort() {
 	for end := len(b.Array) - 1; end > 0; {
