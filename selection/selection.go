@@ -1,4 +1,4 @@
-package selection
+pckage selection
 
 import (
 	"time"
